@@ -1,0 +1,77 @@
+body {
+    max-width: 1440px;
+    min-height: 960px;
+    background-color: #f5d04e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-family: Figtree;
+    
+}
+
+.card {
+    width: 380px;
+    height: 520px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 9px 9px 0px black;
+    
+}
+
+.card:hover {
+    box-shadow: 16px 16px 0px black;
+}
+
+.image {
+    text-align: center;
+    margin-top: 22px;
+}
+
+.image img {
+    border-radius: 10px;
+}
+
+button {
+    height: 30px;
+    width: 80px;
+    background-color: #f5d04e;
+    border: 0px;
+    border-radius: 2px;
+    margin: 20px 22px 0px 22px;
+    font-weight: 800;
+}
+
+.pub {
+    margin-left: 22px;
+}
+
+.desc {
+    margin-left: 22px;
+    margin-bottom: 27px;
+    color: grey;
+}
+
+h2 {
+    margin-left: 22px;
+}
+
+h2:hover {
+    color: #f5d04e;
+}
+
+.credit {
+    display: flex;
+    margin-left: 22px;
+}
+
+.credit p {
+    margin: 6px 10px 10px 10px;
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: 'Figtree';
+    src: local('Figtree'), url('assets/fonts/Figtree-VariableFont_wght.ttf') format('truetype');
+}
